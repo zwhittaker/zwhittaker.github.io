@@ -13,18 +13,18 @@
         <td><a href="https://zwhittaker.github.io/Projects.html">Projects </a></td>
       </tr>
     </table>
-        <hr/>
+    <hr/>
   </div>
   <h1>Projects</h1>
   <h2> Embedded Systems Design Final Project</h2>
   <hr/ align ="left" width ="60%">
   <div style="width:60%;"> <h3>Background:</h3>After an event like the 2011 Fukushima nuclear disaster, the area around a powerplant can reach levels of radiation much too high for humans to navigate. Therefore, post-mortem inspection and cleanup of the area is most often handled by specialized robots. These robots are built to navigate the uneven remains of the powerplant and send back important data such as video, temperature, and radiation levels. Since human operators must stay out of areas of the highest radiation, the ability to control the robots over the web is key to maintaining operation.<br />
-      <h3>Proposal:</h3> We propose to simulate this scenario using the DE1 SoC and a two wheeled robot instructional kit from Osoyoo seen below in figure 1. This robot contains a Raspberry Pi computer running a Debian Linux variant, two independently controlled wheels, a USB-enabled camera, and wireless features such as Wi-Fi and Bluetooth. The Raspberry Pi also has 22 general purpose input-output (GPIO) pins which we will use to mount a temperature sensor. We will then modify the server code provided by Osoyoo to send the temperature data and motor outputs to the client (in this case, the DE1) for displaying and recording. For controlling the robot, we will create a touch-based GUI on the DE1 SoC display based on the concept seen below in figure 2.
-      <div style="width:600px; font-size:80%;text-align:center;"><img src="http://osoyoo.com/wp-content/uploads/2017/12/robot_car_1.jpg" width="250px" height="250px" style="padding-bottom:0.5em; display:block; margin:0 auto;"/> Figure 1: Osoyoo Robot Car</div>
-      <div style="width:600px; font-size:80%;text-align:center;"><img src="http://zwhittaker.github.io/robot_GUI.PNG" width="572px" height="200px" style="padding-bottom:0.5em;display:block; margin:0 auto;"/> Figure 2: Robot GUI</div>
-      <br />
-      If possible, we will create backend scripts on the DE1 to integrate the commanded motions and keep track of the robot’s position and orientation. By doing so, this would enable us to add a location to each temperature measurement and create a heat-map of the room and identify any danger zones. We will also explore running inverse kinematic models on the FPGA for path following. Lastly, we will attempt to implement machine learning algorithms to improve the kinematic models and to predict the temperature at different locations in the room based on past data.
-    </div>
+    <h3>Proposal:</h3> We propose to simulate this scenario using the DE1 SoC and a two wheeled robot instructional kit from Osoyoo seen below in figure 1. This robot contains a Raspberry Pi computer running a Debian Linux variant, two independently controlled wheels, a USB-enabled camera, and wireless features such as Wi-Fi and Bluetooth. The Raspberry Pi also has 22 general purpose input-output (GPIO) pins which we will use to mount a temperature sensor. We will then modify the server code provided by Osoyoo to send the temperature data and motor outputs to the client (in this case, the DE1) for displaying and recording. For controlling the robot, we will create a touch-based GUI on the DE1 SoC display based on the concept seen below in figure 2.
+    <div style="width:600px; font-size:80%;text-align:center;"><img src="http://osoyoo.com/wp-content/uploads/2017/12/robot_car_1.jpg" width="250px" height="250px" style="padding-bottom:0.5em; display:block; margin:0 auto;"/> Figure 1: Osoyoo Robot Car</div>
+    <div style="width:600px; font-size:80%;text-align:center;"><img src="http://zwhittaker.github.io/robot_GUI.PNG" width="572px" height="200px" style="padding-bottom:0.5em;display:block; margin:0 auto;"/> Figure 2: Robot GUI</div>
+    <br />
+    If possible, we will create backend scripts on the DE1 to integrate the commanded motions and keep track of the robot’s position and orientation. By doing so, this would enable us to add a location to each temperature measurement and create a heat-map of the room and identify any danger zones. We will also explore running inverse kinematic models on the FPGA for path following. Lastly, we will attempt to implement machine learning algorithms to improve the kinematic models and to predict the temperature at different locations in the room based on past data.
+  </div>
   <br />
   <h2>Master's Thesis</h2>
   <hr/ align ="left" width ="60%">
